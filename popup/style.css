@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css");
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    background: transparent;
+
+}
+
+* {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.form {
+    width: 264px;
+    height: 384px;
+    background: #3A4655;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 0;
+    box-shadow: -10px 10px 20px rgba(10, 10, 7, 0.2), 10px -10px 20px rgba(10, 10, 7, 0.2), -10px -10px 20px rgba(40, 38, 27, 0.9), 10px 10px 25px rgba(10, 10, 7, 0.9), inset 1px 1px 2px rgba(40, 38, 27, 0.3), inset -1px -1px 2px rgba(10, 10, 7, 0.5);
+}
+
+
+.grid-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 6px;
+    gap: 6px 6px;
+    grid-template-areas:
+        "display display display display"
+        "display display display display"
+        ". . . ."
+        ". . . ."
+        ". . . ."
+        ". . . equate"
+        ". . . equate";
+}
+
+.display {
+    grid-area: display;
+}
+
+.equate {
+    grid-area: equate;
+}
+
+
+
+.display,
+.button,
+.equate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.inner-display {
+    width: 236px;
+    height: 80px;
+    background: #3A4655;
+
+    border-radius: 20px;
+    text-align: right;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.inner-text {
+    height: 80px;
+    text-align: right;
+    background: #3A4655;
+    font-family: Poppins;
+    font-size: 24px;
+    margin: 20px 10px 10px 10px;
+    font-style: normal;
+    font-weight: 500;
+    color: #F8F8F8;
+    border-width: 0px;
+    border: none;
+}
+
+.inner-text:focus {
+    border-width: 0px;
+    border: none;
+    outline: none;
+}
+
+.inner-button {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3A4655;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #F8F8F8;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.inner-button:active {
+
+    transition: box-shadow 0.3s ease-in-out;
+    font-size: 14px;
+
+}
+
+
+.equate .inner-button {
+    height: 100px;
+    background: #FF762D;
+    color: #ffffff;
+}
+
+.equate .inner-button:active {
+
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.orange {
+    color: #FF762D;
+}
+
+.button {
+    box-shadow: 10px 10px 5px #2f38441f;
+}
