@@ -3,8 +3,8 @@
 
 # Pascaline
     a simple calculator for all your need!
-Pascaline is a Chrome extension which can perform addition, subtraction, multiplication, division, and percentage calculations, which are useful when working in a browser and need a simple calculation. So there's no need to switch browsers; simply launch your extension and the calculator will appear.
-
+Pascaline is an extension which can perform addition, subtraction, multiplication, division, and percentage calculations, which are useful when working in a browser and need a simple calculation. So there's no need to switch browsers; simply launch your extension and the calculator will appear.<br>
+> **Try the extension at :** https://addons.mozilla.org/en-US/firefox/addon/pascaline/
 # Summary
 >- **Reason behind this particular idea**<br>
 
@@ -31,10 +31,10 @@ check out the design here [LINk](https://www.figma.com/file/9jfAMxBJrdaCvGGGVZsq
 - [ ] Publish to Chrome Store
 - [ ] Write a Blog about it
 
-# Crio #IBD
-<div align="center">
-This project is part of the Crio #IBD competition.</div>
-<img src="https://github.com/wordssaysalot/Chrome-extensions/blob/main/Pascaline/img/ibd.png" alt='DSC WOW' >
-
 # Licence
 GNU General Public License Version 3
+
+# Feedback / Contributions
+Feedback and pull requests welcome! What do you think? Let me know!
+- [Add a new issue](https://github.com/wordssaysalot/Pascaline/issues)
+- [Email](mailto:riteshkumar.py@gmail.com?Subject=Pascaline)
