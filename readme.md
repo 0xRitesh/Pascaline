@@ -28,8 +28,9 @@ check out the design here [LINk](https://www.figma.com/file/9jfAMxBJrdaCvGGGVZsq
 - JavaScript 
 
 # Further Changes to be Done
-- [ ] Publish to Chrome Store
-- [ ] Write a Blog about it
+- [x] Publish
+- [x] Write a Blog about it
+> [Read the Blog](https://wordssaysalot.hashnode.dev/pascaline)
 
 # Licence
 GNU General Public License Version 3
